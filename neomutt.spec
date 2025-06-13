@@ -1,7 +1,7 @@
 Summary: Text mode Mail Client
 Name: neomutt
 Version: 20250510
-Release: 1%{?dist}
+Release: 2%{?dist}
 Epoch: 6
 Url: https://neomutt.org/
 
@@ -81,6 +81,9 @@ cat %{SOURCE1} >> %{buildroot}%{_sysconfdir}/neomuttrc
 %{_datadir}/neomutt
 
 %changelog
+* Fri Jun 13 2025 KOSHIKAWA Kenichi <reishoku.misc@pm.me> - 20250510-2
+- Rebuilt for EL10 platform
+
 * Sat May 10 2025 Richard Russon <rich@flatcap.org> - 20250510-1
 - Contrib
   - #4616 Fix gpg-json output
